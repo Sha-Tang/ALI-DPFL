@@ -105,8 +105,8 @@ class ALIDPFL(Server):
 
         current_path = os.path.abspath(__file__)  
         parent_directory = os.path.dirname(current_path)  
-        parent_directory = os.path.dirname(parent_directory)  
-        parent_directory = os.path.dirname(parent_directory) 
+        parent_directory = os.path.dirname(parent_directory)
+        # parent_directory = os.path.dirname(parent_directory)
         root_directory = os.path.dirname(parent_directory)  
         config_json_path = root_directory + "\\" + self.dataset + "\\config.json"
 

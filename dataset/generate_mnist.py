@@ -12,7 +12,7 @@ from generate_server_testset import generate_server_testset
 
 import random
 
-dir_path = "mnist/"
+dir_path = "../system/mnist/"
 
 
 
